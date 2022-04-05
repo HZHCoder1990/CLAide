@@ -56,8 +56,9 @@ module CLAide
       #         command parsing and whether or not it should be shown in the
       #         help banner or to show its subcommands instead.
       #
-      #         Setting this to `true` implies it’s an abstract command.
-      #
+      #         Setting this to `true` implies(意味着) it’s an abstract command.
+      #        
+      #  只对Setter方法进行校验
       attr_reader :ignore_in_command_lookup
       alias_method :ignore_in_command_lookup?, :ignore_in_command_lookup
       def ignore_in_command_lookup=(flag)

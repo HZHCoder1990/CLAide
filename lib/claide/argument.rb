@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 module CLAide
-  # This class is used to represent individual arguments to present to
+  # This class is used to represent individual(单独的、独特的) arguments to present to
   # the command help banner
   #
   class Argument

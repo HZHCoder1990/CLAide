@@ -323,9 +323,10 @@ module CLAide
     # @return [void]
     #
     def self.run(argv = [])
-      plugin_prefixes.each do |plugin_prefix|
-        PluginManager.load_plugins(plugin_prefix)
-      end
+#       先注释
+#       plugin_prefixes.each do |plugin_prefix|
+#         PluginManager.load_plugins(plugin_prefix)
+#       end
 
       argv = ARGV.coerce(argv)
       command = parse(argv)

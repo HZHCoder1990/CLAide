@@ -12,6 +12,7 @@ module CLAide
     #         The object which should be converted to the ARGV class.
     #
     # obj.is_a?(类型) obj是否是某种类型
+    # coerce: 强迫
     def self.coerce(argv)
       if argv.is_a?(ARGV)
         argv
